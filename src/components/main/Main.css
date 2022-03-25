@@ -1,0 +1,38 @@
+.image{
+    margin: auto;
+    height:50px;
+    display:block;
+    text-align: center;
+    object-fit: cover;
+}
+.cardContainer{
+    width:160px;
+    height:83px;
+    background-color: white;
+    border-radius: 10px;
+    transition: box-shadow .4s ease-in-out;
+    box-shadow: 10px 10px 10px rgb(63, 61, 61);
+    overflow: hidden;
+}
+.cardContainer:hover{
+    cursor: pointer;
+    box-shadow: 5px 3px 3px blue;
+    transition: box-shadow .4s ease-in-out;
+}
+.cardContainer:hover .image{
+    height:60px;
+    transition: height .5s ease-in-out;
+
+}
+.myList{
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 19px;
+    text-align: left;
+    font-weight: 900;
+    font-style: italic;
+    font-size: smaller;
+    margin-top: 15px;
+}
+.hamza{
+    display:none;
+}
